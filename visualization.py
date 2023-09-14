@@ -1,6 +1,7 @@
 '''
 This file contains functions to create interactive visualizations of the sales data and forecasting results.
 '''
+import pandas as pd
 import streamlit as st
 import plotly.express as px
 def create_visualizations(sales_data, forecast_data):
